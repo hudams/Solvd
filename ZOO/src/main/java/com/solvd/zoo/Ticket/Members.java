@@ -6,10 +6,10 @@ public abstract class Members {
   private char sex;
   private boolean isMember;
 
-  public Members() {
+  protected Members() {
   }
 
-  public Members(String name, int age, char sex, boolean isMember) {
+  protected Members(String name, int age, char sex, boolean isMember) {
     this.name = name;
     this.age = age;
     this.sex = sex;

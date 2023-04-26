@@ -2,7 +2,7 @@ package main.java.com.solvd.zoo.Animals;
 
 public class Reptiles {
   private String name;
-  private int totalReptiles;
+  private byte totalReptiles;
 
   public String getName() {
       return name;
@@ -17,6 +17,6 @@ public class Reptiles {
   }
 
   public void setTotalReptiles(int totalReptiles) {
-      this.totalReptiles = totalReptiles;
+      this.totalReptiles = (byte) totalReptiles;
   }
 }

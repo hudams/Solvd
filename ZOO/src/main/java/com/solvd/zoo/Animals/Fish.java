@@ -1,6 +1,6 @@
 package main.java.com.solvd.zoo.Animals;
 public class Fish {
-    private int fishCount;
+    private byte fishCount;
     private String fishName;
 
     public String getFishName() {
@@ -16,6 +16,6 @@ public class Fish {
     }
 
     public void setFishCount(int fishCount) {
-        this.fishCount = fishCount;
+        this.fishCount = (byte) fishCount;
     }
 }

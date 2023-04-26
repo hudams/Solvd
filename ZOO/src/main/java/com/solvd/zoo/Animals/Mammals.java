@@ -1,6 +1,6 @@
 package main.java.com.solvd.zoo.Animals;
 public class Mammals {
-  private int totalMammals;
+  private byte totalMammals;
   private char sex;
 
   public char getGender() {
@@ -16,6 +16,6 @@ public class Mammals {
   }
 
   public void setTotalMammals(int totalMammals) {
-      this.totalMammals = totalMammals;
+      this.totalMammals = (byte) totalMammals;
   }
 }
