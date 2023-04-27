@@ -1,4 +1,4 @@
-package main.java.com.solvd.zoo;
+package main;
 import main.java.com.solvd.zoo.VisitorsInfo.Map;
 import main.java.com.solvd.zoo.VisitorsInfo.Visitors;
 
