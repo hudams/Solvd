@@ -1,7 +1,33 @@
 package main.java.com.solvd.zoo.Animals;
 public class Fish {
-    private byte fishCount;
     private String fishName;
+    private String geographicRange;
+    private byte age;
+    private String exhibitionName;
+
+    public String getGeographicRange() {
+        return geographicRange;
+    }
+
+    public void setGeographicRange(String geographicRange) {
+        this.geographicRange = geographicRange;
+    }
+
+    public String getExhibitionName() {
+        return exhibitionName;
+    }
+
+    public void setExhibitionName(String exhibitionName) {
+        this.exhibitionName = exhibitionName;
+    }
+
+    public byte getAge() {
+        return age;
+    }
+
+    public void setAge(byte age) {
+        this.age = age;
+    }
 
     public String getFishName() {
         return fishName;
@@ -9,13 +35,5 @@ public class Fish {
 
     public void setFishName(String fishName) {
         this.fishName = fishName;
-    }
-
-    public int getFishCount() {
-        return fishCount;
-    }
-
-    public void setFishCount(int fishCount) {
-        this.fishCount = (byte) fishCount;
     }
 }

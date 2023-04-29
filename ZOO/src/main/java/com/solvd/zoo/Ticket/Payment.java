@@ -30,4 +30,6 @@ public class Payment {
     public void setAddress(String address) {
         this.address = address;
     }
+
+    
 }

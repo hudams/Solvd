@@ -1,21 +1,48 @@
 package main.java.com.solvd.zoo.Animals;
 public class Mammals {
-  private byte totalMammals;
-  private char sex;
+    private String mammalName;
+    private String geographicRange;
+    private byte age;
+    private char sex;
+    private String exhibitionName;
 
-  public char getGender() {
-      return sex;
-  }
+  public String getMammalName() {
+        return mammalName;
+    }
 
-  public void setGender(char gender) {
-      this.sex = gender;
-  }
+    public void setMammalName(String mammalName) {
+        this.mammalName = mammalName;
+    }
 
-  public int getTotalMammals() {
-      return totalMammals;
-  }
+    public String getGeographicRange() {
+        return geographicRange;
+    }
 
-  public void setTotalMammals(int totalMammals) {
-      this.totalMammals = (byte) totalMammals;
-  }
+    public void setGeographicRange(String geographicRange) {
+        this.geographicRange = geographicRange;
+    }
+
+    public byte getAge() {
+        return age;
+    }
+
+    public void setAge(byte age) {
+        this.age = age;
+    }
+
+    public char getSex() {
+        return sex;
+    }
+
+    public void setSex(char sex) {
+        this.sex = sex;
+    }
+
+    public String getExhibitionName() {
+        return exhibitionName;
+    }
+
+    public void setExhibitionName(String exhibitionName) {
+        this.exhibitionName = exhibitionName;
+    }
 }
